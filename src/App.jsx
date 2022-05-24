@@ -4,5 +4,9 @@ import LoadingScreen from "./components/LoadingScreen/LoadingScreen";
 
 export default function App() {
   const [loaded, isLoading] = useState(false);
-  return <div className="wrapper">{!loaded && <LoadingScreen />}</div>;
+  return (
+    <div className="wrapper">
+      {!loaded && <LoadingScreen isLoading={isLoading} />}
+    </div>
+  );
 }
