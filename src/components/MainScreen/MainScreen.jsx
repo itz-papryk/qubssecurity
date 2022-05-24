@@ -26,7 +26,7 @@ const mainContent = {
     content:
       "Programy antywirusowe często są wyposażone w dwa niezależnie funkcjonujące moduły, przy czym różni producenci stosują różne nazewnictwo:\n" +
       "\n" +
-      "skaner – bada pliki na żądanie lub co jakiś czas; służy do przeszukiwania zawartości urządzeń pamięci masowej (np. dysk twardy, pendrive); mogą także typować pliki jako zawierające podejrzany kod za pomocą metod heurystycznych[1].\n" +
+      "skaner – bada pliki na żądanie lub co jakiś czas; służy do przeszukiwania zawartości urządzeń pamięci masowej (np. dysk twardy, pendrive); mogą także typować pliki jako zawierające podejrzany kod za pomocą metod heurystycznych.\n" +
       "monitor/skaner rezydentny – bada pliki w sposób samoczynny; służy do kontroli bieżących operacji komputera.\n" +
       "Programy antywirusowe mają możliwość aktualizacji definicji nowo odkrytych wirusów, często na bieżąco, przez pobranie ich z serwerów producenta oprogramowania za pośrednictwem Internetu.",
   },
