@@ -92,7 +92,7 @@ export default function MainScreen(props) {
           <ul>
             <NavLink
               ref={(e) => (nav = e)}
-              to={"/scan"}
+              to={"/qubssecurity/scan"}
               onClick={() => handleNavOnClick(1)}
               onMouseEnter={() => handleNavMouseEnter(1)}
               onMouseLeave={() => handleNavMouseLeave(1)}
@@ -102,7 +102,7 @@ export default function MainScreen(props) {
             </NavLink>
             <NavLink
               ref={(e) => (nav = e)}
-              to="/scam"
+              to="/qubssecurity/scam"
               id="nav-link2"
               onClick={() => handleNavOnClick(2)}
               onMouseEnter={() => handleNavMouseEnter(2)}
@@ -110,7 +110,7 @@ export default function MainScreen(props) {
             >
               <li>scam</li>
             </NavLink>
-            <NavLink to={"/"}>
+            <NavLink to={"/qubssecurity/"}>
               <h1>
                 QUBS
                 <br />
@@ -119,7 +119,7 @@ export default function MainScreen(props) {
             </NavLink>
             <NavLink
               ref={(e) => (nav = e)}
-              to="/about"
+              to="/qubssecurity/about"
               id="nav-link3"
               onClick={() => handleNavOnClick(3)}
               onMouseEnter={() => handleNavMouseEnter(3)}
@@ -129,7 +129,7 @@ export default function MainScreen(props) {
             </NavLink>
             <NavLink
               ref={(e) => (nav = e)}
-              to="/buynow"
+              to="/qubssecurity/buynow"
               id="nav-link4"
               onClick={() => handleNavOnClick(4)}
               onMouseEnter={() => handleNavMouseEnter(4)}
@@ -147,7 +147,7 @@ export default function MainScreen(props) {
           <div className="context">
             <Routes>
               <Route
-                path="/scan"
+                path="/qubssecurity/scan"
                 element={
                   <>
                     <TextComponent mainContenten={"scan"} />{" "}
@@ -156,19 +156,16 @@ export default function MainScreen(props) {
                 }
               />
               <Route
-                path="/scam"
+                path="/qubssecurity/scam"
                 element={<TextComponent mainContenten={"scam"} />}
               />
+
               <Route
-                path="/internet"
-                element={<TextComponent mainContenten={"internet"} />}
-              />
-              <Route
-                path="/about"
+                path="/qubssecurity/about"
                 element={<TextComponent mainContenten={"about"} />}
               />
               <Route
-                path="buynow"
+                path="/qubssecurity/buynow"
                 element={
                   <>
                     <BuyNowButton text={"KUP TERAZ!!!"} />
