@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/qubssecurity/static/css/main.21e7f731.css",
-    "main.js": "/qubssecurity/static/js/main.77a64c90.js",
+    "main.js": "/qubssecurity/static/js/main.1548546e.js",
     "static/media/SFTransRobotics.ttf": "/qubssecurity/static/media/SFTransRobotics.87eb489169f20049872a.ttf",
     "index.html": "/qubssecurity/index.html",
     "main.21e7f731.css.map": "/qubssecurity/static/css/main.21e7f731.css.map",
-    "main.77a64c90.js.map": "/qubssecurity/static/js/main.77a64c90.js.map"
+    "main.1548546e.js.map": "/qubssecurity/static/js/main.1548546e.js.map"
   },
   "entrypoints": [
     "static/css/main.21e7f731.css",
-    "static/js/main.77a64c90.js"
+    "static/js/main.1548546e.js"
   ]
 }
